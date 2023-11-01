@@ -1,0 +1,36 @@
+.line {
+    width: 100%;
+    margin: 5px auto;
+}
+
+A:active {
+    color: lightblue;
+}
+
+A:visited {
+    color: rgb(89, 0, 141);
+}
+
+.main {
+    text-align: left;
+    font-family: "Calluna";
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 2px;
+}
+
+td {
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+ul {
+    list-style-type: square;
+}

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <link rel = "stylesheet" href = "style.css">
+        <meta charset = "utf-8">
+        <title>
+            Таблица шансов усиления в Black Desert online.
+        </title>
+    </head>
+
+    <body>
+
+        <p><a href = "UpgradeChanceBDO.html" vlink>Заточка предметов в Black Desert online.</a></p>
+
+        <hr width = "100%">
+
+        <details>
+            <summary>График</summary>
+            <form>
+
+                <table border = "0" cellpadding = "2px"> 
+                    <tr><th>Значение по оси ОХ</th><th>Результат</th></tr>
+                    <tr><td><input type = "radio">Уровень усиления</td><td><input type = "checkbox">Базовый шанс</td></tr>
+                    <tr><td><input type = "radio">Название предмета</td><td><input type = "checkbox">Максимальный шанс</td></tr>
+                    <tr><td></td><td><input type = "checkbox">Количество фейлов</td></tr>
+                </table>
+                <input type = "button" id = "Graphic" value = "Построить">
+
+            </form>
+        </details>
+
+        <details>
+            <summary>Фильтр</summary>
+            <form>
+                Название: <input type = "text"><br>
+                Уровень усиления: <input type = "text"><br>
+                Максимальное число неудач: <input type = "number"><br>
+                Базовый шанс усиления: <input type = "number">%<br>
+                <input type = "button" value = "Найти" id = "Search">
+            </form>
+        </details>
+
+        <details>
+            <summary>Сортировка</summary>
+            <form>
+                Первый уровень: <select name = "Sort1"> 
+                    <option value = "Sort11">Название</option>
+                    <option value = "Sort12">Уровень усиления</option>
+                    <option value = "Sort13">Максимальное число неудач</option>
+                    <option value = "Sort14">Базовый шанс усиления</option>
+                </select> по убываению? <input type = "checkbox"> <br>
+                Второй уровень: <select name = "Sort2">
+                    <option value = "Sort21">Название</option>
+                    <option value = "Sort22">Уровень усиления</option>
+                    <option value = "Sort23">Максимальное число неудач</option>
+                    <option value = "Sort24">Базовый шанс усиления</option>
+                </select> по убываению? <input type = "checkbox"> <br>
+                Третий уровень: <select name = "Sort3">
+                    <option value = "Sort31">Название</option>
+                    <option value = "Sort32">Уровень усиления</option>
+                    <option value = "Sort33">Максимальное число неудач</option>
+                    <option value = "Sort34">Базовый шанс усиления</option>
+                </select> по убываению? <input type = "checkbox"> <br>
+                Четвертый уровень: <select name = "Sort4">
+                    <option value = "Sort41">Название</option>
+                    <option value = "Sort42">Уровень усиления</option>
+                    <option value = "Sort43">Максимальное число неудач</option>
+                    <option value = "Sort44">Базовый шанс усиления</option>
+                </select> по убываению? <input type = "checkbox"> <br>
+                <input type = "button" id = "Sort" value = "Сортировать">
+            </form>
+        </details>
+
+        <table border = "1px" cellspacing = "0" cellpadding = "2px">
+
+            <tr>
+                <th>Название</th>
+                <th>Уровень усиления</th>
+                <th>Максимальное число неудач</th>
+                <th>Базовый шанс усиления</th>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>0</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>1</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>2</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>3</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>4</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>5</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>6</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>7</td>
+                <td>0</td>
+                <td>90%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>8</td>
+                <td>5</td>
+                <td>20.4081%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>9</td>
+                <td>7</td>
+                <td>14.2857%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>11</td>
+                <td>30</td>
+                <td>6.666%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>12</td>
+                <td>30</td>
+                <td>4%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>13</td>
+                <td>40</td>
+                <td>2.5%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>14</td>
+                <td>40</td>
+                <td>2%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>15</td>
+                <td>40</td>
+                <td>13.0769%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>16</td>
+                <td>70</td>
+                <td>10.625%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>17</td>
+                <td>120</td>
+                <td>3.4%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>18</td>
+                <td>250</td>
+                <td>0.51%</td>
+            </tr>
+            <tr>
+                <td>Доспех босса</td>
+                <td>19</td>
+                <td>500</td>
+                <td>0.2%</td>
+            </tr>
+            <tr>
+                <td>Бижутерия</td>
+                <td>0</td>
+                <td>14</td>
+                <td>25%</td>
+            </tr>
+            <tr>
+                <td>Бижутерия</td>
+                <td>1</td>
+                <td>30</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>Бижутерия</td>
+                <td>2</td>
+                <td>40</td>
+                <td>7.5%</td>
+            </tr>
+            <tr>
+                <td>Бижутерия</td>
+                <td>3</td>
+                <td>80</td>
+                <td>2.5%</td>
+            </tr>
+            <tr>
+                <td>Бижутерия</td>
+                <td>4</td>
+                <td>200</td>
+                <td>0.5%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>0</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>1</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>2</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>3</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>4</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>5</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>6</td>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>7</td>
+                <td>0</td>
+                <td>90%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>8</td>
+                <td>0</td>
+                <td>70%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>9</td>
+                <td>0</td>
+                <td>50%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>10</td>
+                <td>5</td>
+                <td>30%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>11</td>
+                <td>12</td>
+                <td>20%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>12</td>
+                <td>14</td>
+                <td>15%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>13</td>
+                <td>15</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>14</td>
+                <td>25</td>
+                <td>8%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>15</td>
+                <td>10</td>
+                <td>17%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>16</td>
+                <td>10</td>
+                <td>11%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>17</td>
+                <td>30</td>
+                <td>8%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>18</td>
+                <td>40</td>
+                <td>5%</td>
+            </tr>
+            <tr>
+                <td>Экипировка Туваллы</td>
+                <td>19</td>
+                <td>60</td>
+                <td>3%</td>
+            </tr>
+            <tr>
+                <td>Бижутерия Туваллы</td>
+                <td>0</td>
+                <td>10</td>
+                <td>70%</td>
+            </tr>
+            <tr>
+                <td>Бижутерия Туваллы</td>
+                <td>1</td>
+                <td>20</td>
+                <td>50%</td>
+            </tr>
+            <tr>
+                <td>Бижутерия Туваллы</td>
+                <td>2</td>
+                <td>30</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Бижутерия Туваллы</td>
+                <td>3</td>
+                <td>35</td>
+                <td>30%</td>
+            </tr>
+            <tr>
+                <td>Бижутерия Туваллы</td>
+                <td>4</td>
+                <td>40</td>
+                <td>20%</td>
+            </tr>
+
+        </table>
+        
+    </body>
+</html>
