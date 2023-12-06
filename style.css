@@ -1,36 +1,129 @@
-.line {
-    width: 100%;
-    margin: 5px auto;
+.outer {
+    background-color: #808080;
+    padding: 0 0 0.2% 0;
 }
 
-A:active {
-    color: lightblue;
-}
-
-A:visited {
-    color: rgb(89, 0, 141);
+div {
+    /*border: 1px solid black;*/
 }
 
 .main {
-    text-align: left;
-    font-family: "Calluna";
-    font-size: 20px;
-    line-height: 1.5;
+    background-color: white;
+    margin: 0.1% 0.1% 0.5% 0.1%;
+    padding: 0 0 2% 0;
 }
 
-table {
-    table-layout: fixed;
-    border-collapse: collapse;
-    margin: 2px;
-}
-
-td {
-    text-align: left;
+.icon {
+    width: 20px; 
+    height: 20px;
     vertical-align: middle;
-    border: 1px solid black;
-    padding: 3px;
+    cursor: pointer;
+}
+.menu{
+    font-size: 1.5vw;
+    overflow: hidden;
+    background-color: #d3d3d3;
+}
+.menu-items{
+    float: right;
+    overflow: hidden;
+    width: 60%;
+    height: 99%;
+}
+.menu-item{
+    float: right;
+    margin: 0.3%;
+    padding: 0.5% 3% 0.5% 0.5%;
+    height: 99%;
+    cursor: pointer;
+}
+.title{
+    float: left;
+    padding: 0.5%;
+    width: 30%;
+    height: 99%;
+}
+.menu-item.active{
+    background-color: #808080;
+    color: yellow;
 }
 
-ul {
-    list-style-type: square;
+.typesearch {
+    width: 60%;
+    vertical-align: middle;
+    margin: 2px 3px;
+}
+
+.images {
+    width: 90%;
+    height: 20%;
+    overflow: hidden;
+    margin: 0.2% auto;
+    text-align: right;
+}
+
+.screenshot {
+    height: 100%;
+    width: 24%;
+    float: left;
+    margin: 0.1%;
+}
+
+.middle {
+    width: 49%;
+}
+
+.bottom {
+    overflow: hidden;
+}
+
+.copyright {
+    font-size: 1vw;
+    float: left;
+    width: 49%;
+    text-align: left;
+}
+
+.rightalign {
+    text-align: right;
+}
+
+.infoblock {
+    display: inline-block;
+    width: 23%;
+    float: left;
+    padding: 1%;
+    font-size: 1vw;
+}
+
+.ShortInfo {
+    width: 50%;
+    margin: 0.1% auto;
+    overflow: hidden;
+}
+
+.infoblock img {
+    margin: 0 auto;
+    display: block;
+}
+
+.article {
+    font-size: 1vw;
+    width: 70%;
+    text-align: justify;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.article p {
+    text-indent: 1%;
+}
+
+.article h3 {
+    text-align: center;
+}
+
+.article img {
+    float: left;
+    width: 20%;
 }
